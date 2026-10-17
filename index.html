@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panchang Sky</title>
+    <meta name="author" content="Pranav Dnyaneshwar Kulkarni" />
+    <meta name="description" content="See the planetary configuration behind every Hindu festival, vrat and ekadashi of the year." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='14' fill='%23ffb347'/><g stroke='%23ffb347' stroke-width='4' stroke-linecap='round'><path d='M32 4v8M32 52v8M4 32h8M52 32h8M12 12l6 6M46 46l6 6M12 52l6-6M46 18l6-6'/></g></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Marcellus&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="icon-btn only-mobile" id="toggle-list" aria-label="Show festival list">☰</button>
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">☉</span>
+        <div>
+          <h1 data-i18n="brand.title">Panchang Sky</h1>
+          <p class="mr" data-i18n="brand.sub">पंचांग आकाश</p>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="year-picker">
+          <button class="icon-btn" id="year-prev" aria-label="Previous year">‹</button>
+          <select id="year" aria-label="Year"></select>
+          <button class="icon-btn" id="year-next" aria-label="Next year">›</button>
+        </div>
+        <label class="field">
+          <span data-i18n="place">Place</span>
+          <select id="place"></select>
+        </label>
+        <div class="segmented" role="group" aria-label="Lunar month system">
+          <button data-system="amanta" data-i18n="amanta" data-i18n-title="amanta.title">Amanta</button>
+          <button data-system="purnimanta" data-i18n="purnimanta" data-i18n-title="purnimanta.title">Purnimanta</button>
+        </div>
+        <button class="text-btn" id="print-cal" data-i18n-title="print.buttonTitle">🗓 <span data-i18n="print.button">Calendar</span></button>
+        <div class="segmented lang" role="group" aria-label="Language / भाषा">
+          <button data-lang="en" lang="en">EN</button>
+          <button data-lang="mr" lang="mr" class="mr">मराठी</button>
+        </div>
+      </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="search">
+        <input id="search" type="search" placeholder="Search festival, vrat, ekadashi… / शोधा" data-i18n-ph="search" autocomplete="off" />
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="region">
+        <label class="field compact">
+          <span data-i18n="region">Region</span>
+          <select id="region">
+            <option value="all" data-i18n="region.all">All traditions</option>
+            <option value="mh" data-i18n="region.mh">Maharashtra focus</option>
+            <option value="north" data-i18n="region.north">North India</option>
+            <option value="east" data-i18n="region.east">East India</option>
+            <option value="south" data-i18n="region.south">South India</option>
+          </select>
+        </label>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="list" id="list" role="listbox" aria-label="Festivals"></div>
+      <div class="credit"><span data-i18n="credit.by">Created by</span> <b data-i18n="credit.name">Pranav Dnyaneshwar Kulkarni</b></div>
+    </aside>
+
+    <main class="stage">
+      <div class="viewport" id="viewport"></div>
+      <div class="view-tabs" role="tablist">
+        <button data-view="helio" role="tab" data-i18n="view.helio">Solar System</button>
+        <button data-view="geo" role="tab" data-i18n="view.geo">Zodiac Wheel</button>
+        <button data-view="sky" role="tab" id="sky-tab">Sky from Pune</button>
+      </div>
+      <div class="view-tools" id="view-tools"></div>
+      <div class="loading" id="loading"><div class="spinner"></div><span data-i18n="loading">Computing the year’s sky…</span></div>
+    </main>
+
+    <aside class="details" id="details"></aside>
+
+    <footer class="timebar">
+      <div class="transport">
+        <button class="icon-btn" id="step-back-day" title="−1 day" data-i18n-title="step.-1d">⏮</button>
+        <button class="icon-btn" id="step-back" title="−1 hour" data-i18n-title="step.-1h">◀</button>
+        <button class="icon-btn play" id="play" title="Play / pause" data-i18n-title="play">▶</button>
+        <button class="icon-btn" id="step-fwd" title="+1 hour" data-i18n-title="step.+1h">▶</button>
+        <button class="icon-btn" id="step-fwd-day" title="+1 day" data-i18n-title="step.+1d">⏭</button>
+        <select id="speed" aria-label="Playback speed">
+          <option value="600000" data-i18n="speed.10m">10 min / s</option>
+          <option value="3600000" selected data-i18n="speed.1h">1 hour / s</option>
+          <option value="21600000" data-i18n="speed.6h">6 hours / s</option>
+          <option value="86400000" data-i18n="speed.1d">1 day / s</option>
+          <option value="604800000" data-i18n="speed.1w">1 week / s</option>
+        </select>
+        <input type="datetime-local" id="when" aria-label="Date and time" />
+        <button class="text-btn" id="now" data-i18n="now">Now</button>
+        <div class="hud" id="hud" aria-live="off"></div>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </footer>
+
+    <div class="print-view" id="print-view" role="dialog" aria-label="Printable calendar"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "panchang-sky",
+  "version": "1.0.0",
+  "description": "3D visualization of the sky behind Hindu festivals and vrats",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate.ts",
+    "list": "node scripts/list.ts",
+    "regression": "node scripts/regression.ts",
+    "typecheck": "tsc -p .",
+    "demo": "node scripts/demo-video.mjs"
+  },
+  "keywords": [],
+  "author": "Pranav Dnyaneshwar Kulkarni",
+  "license": "ISC",
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/three": "^0.186.0",
+    "puppeteer-core": "^25.12.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.3"
+  },
+  "type": "module"
+}

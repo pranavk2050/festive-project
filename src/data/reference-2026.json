@@ -1,0 +1,1121 @@
+{
+  "location": "Pune",
+  "timezone": "Asia/Kolkata",
+  "geonameId": 1259229,
+  "sources": [
+    "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/marathi/calendar/marathi-calendar.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/vrats/sankashti-chaturthi-dates.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/vrats/purnimasidates.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/vrats/amavasyadates.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/sankranti/<rashi>-sankranti-date-time.html?geoname-id=1259229&year=2026",
+    "https://www.drikpanchang.com/eclipse/<solar|lunar>-eclipse-date-time-duration.html?date=DD/MM/2026&geoname-id=1259229",
+    "https://www.drikpanchang.com/marathi/festivals/gauri-puja/jyeshtha-gauri-*-date-time.html?geoname-id=1259229&year=2026",
+    "https://www.prokerala.com/festivals/<festival>.html?year=2026&loc=1259229 (Pune)",
+    "https://www.mpanchang.com/festivals/?month=N&year=2026 (Pune; weak cross-check, disagrees often)",
+    "Maharashtra govt 2026 public holiday list (via https://www.greythr.com/wiki/acts/st-maharashtra/holidays/2026/)",
+    "Drikpanchang New Delhi (geoname-id=1261481) pages used for Pune-vs-Delhi comparison"
+  ],
+  "puneDelhiDifferences": [
+    {
+      "id": "holika-dahan",
+      "pune": "2026-03-02",
+      "delhi": "2026-03-03"
+    },
+    {
+      "id": "holi",
+      "pune": "2026-03-03",
+      "delhi": "2026-03-04"
+    },
+    {
+      "id": "govardhan-puja",
+      "pune": "2026-11-09",
+      "delhi": "2026-11-10"
+    },
+    {
+      "id": "balipratipada",
+      "pune": "2026-11-09 (drik; Maharashtra govt list says 2026-11-10)",
+      "delhi": "2026-11-10"
+    },
+    {
+      "id": "agastya-arghya",
+      "pune": "2026-08-12",
+      "delhi": "2026-09-04"
+    }
+  ],
+  "events": [
+    {
+      "id": "bhogi",
+      "name": "Bhogi",
+      "date": "2026-01-13",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Drik Sankranti calendar lists Bhogi Pandigai/Lohri on Jan 13 (day before Makara Sankranti); prokerala Bhogi page shows Jan 14"
+    },
+    {
+      "id": "makar-sankranti",
+      "name": "Makar Sankranti",
+      "date": "2026-01-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sun enters Makara 15:13 IST; prokerala (Pune) agrees; mpanchang agrees"
+    },
+    {
+      "id": "maghi-ganesh-jayanti",
+      "name": "Maghi Ganesh Jayanti",
+      "date": "2026-01-22",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Magha Shukla Chaturthi; prokerala (Pune) agrees"
+    },
+    {
+      "id": "vasant-panchami",
+      "name": "Vasant Panchami",
+      "date": "2026-01-23",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "rath-saptami",
+      "name": "Ratha Saptami",
+      "date": "2026-01-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "maha-shivaratri",
+      "name": "Maha Shivaratri",
+      "date": "2026-02-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Maharashtra govt holiday"
+    },
+    {
+      "id": "holika-dahan",
+      "name": "Holika Dahan (Holi)",
+      "date": "2026-03-02",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Drik Pune: Mar 2 (Purnima begins 17:55 Mar 2; Bhadra/eclipse on Mar 3); regional reports say Maharashtra observes Mar 2. Drik New Delhi and prokerala Pune give Mar 3"
+    },
+    {
+      "id": "holi",
+      "name": "Dhulivandan / Rangwali Holi",
+      "date": "2026-03-03",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Drik Pune; Maharashtra govt holiday 'Holi second day' Mar 3. Drik New Delhi and prokerala Pune give Mar 4"
+    },
+    {
+      "id": "rang-panchami",
+      "name": "Rang Panchami",
+      "date": "2026-03-08",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; mpanchang agrees"
+    },
+    {
+      "id": "gudi-padwa",
+      "name": "Gudi Padwa",
+      "date": "2026-03-19",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Maharashtra govt holiday"
+    },
+    {
+      "id": "chaitra-navratri-start",
+      "name": "Chaitra Navratri begins",
+      "date": "2026-03-19",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "ram-navami",
+      "name": "Rama Navami",
+      "date": "2026-03-26",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Smarta date; ISKCON observes Mar 27 (mpanchang also Mar 27); prokerala (Pune) agrees; Maharashtra govt holiday Mar 26"
+    },
+    {
+      "id": "hanuman-jayanti",
+      "name": "Hanuman Jayanti",
+      "date": "2026-04-02",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "akshaya-tritiya",
+      "name": "Akshaya Tritiya",
+      "date": "2026-04-19",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; mpanchang shows Apr 20"
+    },
+    {
+      "id": "buddha-purnima",
+      "name": "Buddha Purnima",
+      "date": "2026-05-01",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Maharashtra govt holiday"
+    },
+    {
+      "id": "vat-savitri-amavasya",
+      "name": "Vat Savitri Vrat (Amavasya)",
+      "date": "2026-05-16",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; also Shani Jayanti"
+    },
+    {
+      "id": "adhik-maas-start",
+      "name": "Adhika Jyeshtha maas begins",
+      "date": "2026-05-17",
+      "source": "drikpanchang+web",
+      "confidence": "medium",
+      "note": "Derived: day after the Amavasya of May 16 per drik; several web sources state Adhik Jyeshtha May 17 - Jun 15"
+    },
+    {
+      "id": "adhik-maas-end",
+      "name": "Adhika Jyeshtha maas ends (Adhika Amavasya)",
+      "date": "2026-06-15",
+      "source": "drikpanchang+web",
+      "confidence": "medium",
+      "note": "Drik lists 'Jyeshtha Adhika Amavasya' Jun 15 (Darsha Jun 14); web sources state end Jun 15"
+    },
+    {
+      "id": "nirjala-ekadashi",
+      "name": "Nirjala Ekadashi",
+      "date": "2026-06-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "vat-purnima",
+      "name": "Vat Purnima Vrat",
+      "date": "2026-06-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "rath-yatra",
+      "name": "Jagannath Rath Yatra",
+      "date": "2026-07-16",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ashadhi-ekadashi",
+      "name": "Ashadhi (Devshayani) Ekadashi",
+      "date": "2026-07-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "guru-purnima",
+      "name": "Guru Purnima",
+      "date": "2026-07-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "nag-panchami",
+      "name": "Nag Panchami",
+      "date": "2026-08-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "narali-purnima",
+      "name": "Narali Purnima",
+      "date": "2026-08-28",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "raksha-bandhan",
+      "name": "Raksha Bandhan",
+      "date": "2026-08-28",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "janmashtami",
+      "name": "Krishna Janmashtami",
+      "date": "2026-09-04",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; mpanchang lists Smarta Sep 3 / ISKCON Sep 4"
+    },
+    {
+      "id": "dahi-handi",
+      "name": "Dahi Handi / Gopalkala",
+      "date": "2026-09-05",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "pola",
+      "name": "Bail Pola",
+      "date": "2026-09-11",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Drik Marathi calendar (Shravana Amavasya); drik lists Pithori Amavasya Sep 10; not cross-checked"
+    },
+    {
+      "id": "hartalika-teej",
+      "name": "Hartalika Teej",
+      "date": "2026-09-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "ganesh-chaturthi",
+      "name": "Ganesh Chaturthi",
+      "date": "2026-09-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Maharashtra govt holiday Sep 14; mpanchang shows Sep 15"
+    },
+    {
+      "id": "rishi-panchami",
+      "name": "Rishi Panchami",
+      "date": "2026-09-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "gauri-avahan",
+      "name": "Jyeshtha Gauri Avahan",
+      "date": "2026-09-17",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Anuradha nakshatra; drik only"
+    },
+    {
+      "id": "gauri-pujan",
+      "name": "Jyeshtha Gauri Pujan",
+      "date": "2026-09-18",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Jyeshtha nakshatra; drik only"
+    },
+    {
+      "id": "gauri-visarjan",
+      "name": "Jyeshtha Gauri Visarjan",
+      "date": "2026-09-19",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Mula nakshatra; drik only"
+    },
+    {
+      "id": "anant-chaturdashi",
+      "name": "Anant Chaturdashi / Ganesh Visarjan",
+      "date": "2026-09-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "pitru-paksha-start",
+      "name": "Pitru Paksha begins",
+      "date": "2026-09-27",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Drik: Pitrupaksha begins Sep 27 (Pratipada shraddha); Purnima shraddha Sep 26; mpanchang shows begin Sep 26"
+    },
+    {
+      "id": "sarvapitri-amavasya",
+      "name": "Sarva Pitru Amavasya",
+      "date": "2026-10-10",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ghatasthapana",
+      "name": "Ghatasthapana (Sharad Navratri begins)",
+      "date": "2026-10-11",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "dussehra",
+      "name": "Dussehra / Vijayadashami",
+      "date": "2026-10-20",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Maharashtra govt holiday Oct 20; mpanchang shows Oct 21"
+    },
+    {
+      "id": "kojagiri-purnima",
+      "name": "Kojagiri Purnima",
+      "date": "2026-10-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Moonrise 17:25; Purnima 11:55 Oct 25 - 09:41 Oct 26; prokerala Sharad Purnima Oct 25"
+    },
+    {
+      "id": "karva-chauth",
+      "name": "Karva Chauth",
+      "date": "2026-10-29",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Drik: Chaturthi 01:06 - 22:09 Oct 29, moonrise 20:58; prokerala Pune shows Oct 30, mpanchang Oct 28"
+    },
+    {
+      "id": "vasubaras",
+      "name": "Vasubaras (Govatsa Dwadashi)",
+      "date": "2026-11-05",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "dhanteras",
+      "name": "Dhanteras / Dhantrayodashi",
+      "date": "2026-11-06",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "narak-chaturdashi",
+      "name": "Narak Chaturdashi (Abhyanga Snan)",
+      "date": "2026-11-08",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Same day as Lakshmi Puja; Kali Chaudas Nov 7; mpanchang agrees"
+    },
+    {
+      "id": "diwali-lakshmi-puja",
+      "name": "Diwali Lakshmi Puja",
+      "date": "2026-11-08",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Maharashtra govt holiday"
+    },
+    {
+      "id": "govardhan-puja",
+      "name": "Govardhan Puja",
+      "date": "2026-11-09",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Drik Pune Nov 9 (Pratipada begins 12:31 Nov 9); drik New Delhi and prokerala Pune give Nov 10"
+    },
+    {
+      "id": "balipratipada",
+      "name": "Balipratipada (Diwali Padwa)",
+      "date": "2026-11-10",
+      "source": "maharashtra-govt-holiday-list",
+      "confidence": "medium",
+      "note": "Maharashtra govt holiday list: Bali Pratipada Nov 10 (Pratipada at sunrise). Drik Pune Marathi calendar lists Bali Pratipada Nov 9; drik New Delhi Nov 10"
+    },
+    {
+      "id": "bhaubeej",
+      "name": "Bhaubeej",
+      "date": "2026-11-11",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Maharashtra govt holiday Nov 11; mpanchang shows Nov 10"
+    },
+    {
+      "id": "chhath-puja",
+      "name": "Chhath Puja",
+      "date": "2026-11-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "kartiki-ekadashi",
+      "name": "Kartiki (Prabodhini) Ekadashi",
+      "date": "2026-11-20",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees; Gauna/Vaishnava Nov 21"
+    },
+    {
+      "id": "tulsi-vivah",
+      "name": "Tulsi Vivah",
+      "date": "2026-11-21",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Kartika Shukla Dwadashi; mpanchang agrees"
+    },
+    {
+      "id": "kartik-purnima",
+      "name": "Kartik Purnima",
+      "date": "2026-11-24",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "champa-shashthi",
+      "name": "Champa Shashthi",
+      "date": "2026-12-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "gita-jayanti",
+      "name": "Gita Jayanti",
+      "date": "2026-12-20",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "datta-jayanti",
+      "name": "Datta Jayanti",
+      "date": "2026-12-23",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala (Pune) agrees"
+    },
+    {
+      "id": "ekadashi-shattila",
+      "name": "Shattila Ekadashi",
+      "date": "2026-01-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-jaya",
+      "name": "Jaya Ekadashi",
+      "date": "2026-01-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-vijaya",
+      "name": "Vijaya Ekadashi",
+      "date": "2026-02-13",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-amalaki",
+      "name": "Amalaki Ekadashi",
+      "date": "2026-02-27",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-papmochani",
+      "name": "Papmochani Ekadashi",
+      "date": "2026-03-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "drik ekadashi list marks the day as Vishnushrinkhala Dwadashi; mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-kamada",
+      "name": "Kamada Ekadashi",
+      "date": "2026-03-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-varuthini",
+      "name": "Varuthini Ekadashi",
+      "date": "2026-04-13",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-mohini",
+      "name": "Mohini Ekadashi",
+      "date": "2026-04-27",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-apara",
+      "name": "Apara Ekadashi",
+      "date": "2026-05-13",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-padmini",
+      "name": "Padmini Ekadashi",
+      "date": "2026-05-27",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Adhika Jyeshtha Shukla; no matching second source"
+    },
+    {
+      "id": "ekadashi-parama",
+      "name": "Parama Ekadashi",
+      "date": "2026-06-11",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Adhika Jyeshtha Krishna; no matching second source"
+    },
+    {
+      "id": "ekadashi-nirjala",
+      "name": "Nirjala Ekadashi",
+      "date": "2026-06-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "prokerala Pune agrees"
+    },
+    {
+      "id": "ekadashi-yogini",
+      "name": "Yogini Ekadashi",
+      "date": "2026-07-10",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Gauna/Vaishnava Jul 11; mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-devshayani",
+      "name": "Devshayani Ekadashi",
+      "date": "2026-07-25",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-kamika",
+      "name": "Kamika Ekadashi",
+      "date": "2026-08-09",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-shravana-putrada",
+      "name": "Shravana Putrada Ekadashi",
+      "date": "2026-08-23",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Vaishnava Aug 24; mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-aja",
+      "name": "Aja Ekadashi",
+      "date": "2026-09-07",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-parsva",
+      "name": "Parsva Ekadashi",
+      "date": "2026-09-22",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "drik ekadashi list marks the day as Vishnushrinkhala Dwadashi; mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-indira",
+      "name": "Indira Ekadashi",
+      "date": "2026-10-06",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-papankusha",
+      "name": "Papankusha Ekadashi",
+      "date": "2026-10-22",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-rama",
+      "name": "Rama Ekadashi",
+      "date": "2026-11-05",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-prabodhini",
+      "name": "Prabodhini Ekadashi",
+      "date": "2026-11-20",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Gauna/Vaishnava Nov 21; prokerala Pune agrees"
+    },
+    {
+      "id": "ekadashi-utpanna",
+      "name": "Utpanna Ekadashi",
+      "date": "2026-12-04",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "ekadashi-mokshada",
+      "name": "Mokshada Ekadashi",
+      "date": "2026-12-20",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-01",
+      "name": "Sakat Chauth / Lambodara Sankashti Chaturthi",
+      "date": "2026-01-06",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "moonrise-based; mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-02",
+      "name": "Dwijapriya Sankashti Chaturthi",
+      "date": "2026-02-05",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "moonrise-based; mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-03",
+      "name": "Bhalachandra Sankashti Chaturthi",
+      "date": "2026-03-06",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-03-07"
+    },
+    {
+      "id": "sankashti-2026-04",
+      "name": "Vikata Sankashti Chaturthi",
+      "date": "2026-04-05",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-04-06"
+    },
+    {
+      "id": "sankashti-2026-05",
+      "name": "Ekadanta Sankashti Chaturthi",
+      "date": "2026-05-05",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "moonrise-based; mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-06",
+      "name": "Vibhuvana (Adhika) Sankashti Chaturthi",
+      "date": "2026-06-03",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-06-04"
+    },
+    {
+      "id": "sankashti-2026-07",
+      "name": "Krishnapingala Sankashti Chaturthi",
+      "date": "2026-07-03",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-07-04"
+    },
+    {
+      "id": "sankashti-2026-08",
+      "name": "Gajanana Sankashti Chaturthi",
+      "date": "2026-08-02",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "moonrise-based; mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-08-2",
+      "name": "Heramba / Bahula Chaturthi Sankashti Chaturthi",
+      "date": "2026-08-31",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-09-01"
+    },
+    {
+      "id": "sankashti-2026-09",
+      "name": "Vighnaraja Sankashti Chaturthi",
+      "date": "2026-09-29",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-09-30"
+    },
+    {
+      "id": "sankashti-2026-10",
+      "name": "Vakratunda / Karwa Chauth Sankashti Chaturthi",
+      "date": "2026-10-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "moonrise-based; mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-11",
+      "name": "Ganadhipa Sankashti Chaturthi",
+      "date": "2026-11-27",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "moonrise-based; mpanchang agrees"
+    },
+    {
+      "id": "sankashti-2026-12",
+      "name": "Akhuratha Sankashti Chaturthi",
+      "date": "2026-12-26",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "moonrise-based; mpanchang shows 2026-12-27"
+    },
+    {
+      "id": "purnima-pausha",
+      "name": "Pausha Purnima",
+      "date": "2026-01-03",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-magha",
+      "name": "Magha Purnima",
+      "date": "2026-02-01",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-phalguna",
+      "name": "Phalguna Purnima",
+      "date": "2026-03-03",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-chaitra",
+      "name": "Chaitra Purnima",
+      "date": "2026-04-02",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Purnima upavasa (vrat) day 2026-04-01; this date = day drik lists as the Purnima (tithi at sunrise)"
+    },
+    {
+      "id": "purnima-vaishakha",
+      "name": "Vaishakha Purnima",
+      "date": "2026-05-01",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-jyeshtha-adhika",
+      "name": "Jyeshtha Adhika Purnima",
+      "date": "2026-05-31",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Purnima upavasa (vrat) day 2026-05-30; this date = day drik lists as the Purnima (tithi at sunrise)"
+    },
+    {
+      "id": "purnima-jyeshtha",
+      "name": "Jyeshtha Purnima",
+      "date": "2026-06-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-ashadha",
+      "name": "Ashadha Purnima",
+      "date": "2026-07-29",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-shravana",
+      "name": "Shravana Purnima",
+      "date": "2026-08-28",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Purnima upavasa (vrat) day 2026-08-27; this date = day drik lists as the Purnima (tithi at sunrise)"
+    },
+    {
+      "id": "purnima-bhadrapada",
+      "name": "Bhadrapada Purnima",
+      "date": "2026-09-26",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-ashwina",
+      "name": "Ashwina Purnima",
+      "date": "2026-10-26",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Purnima upavasa (vrat) day 2026-10-25; this date = day drik lists as the Purnima (tithi at sunrise)"
+    },
+    {
+      "id": "purnima-kartika",
+      "name": "Kartika Purnima",
+      "date": "2026-11-24",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "purnima-margashirsha",
+      "name": "Margashirsha Purnima",
+      "date": "2026-12-23",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Purnima vrat same day"
+    },
+    {
+      "id": "amavasya-2026-01",
+      "name": "Amavasya (Magha purnimanta / Pausha amanta)",
+      "date": "2026-01-18",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-02",
+      "name": "Amavasya (Phalguna/Magha; annular solar eclipse)",
+      "date": "2026-02-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-03",
+      "name": "Amavasya (Chaitra/Phalguna)",
+      "date": "2026-03-19",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Darsha Amavasya 2026-03-18; this date = day drik lists as the month Amavasya (tithi at sunrise)"
+    },
+    {
+      "id": "amavasya-2026-04",
+      "name": "Amavasya (Vaishakha/Chaitra)",
+      "date": "2026-04-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-05",
+      "name": "Amavasya (Jyeshtha/Vaishakha)",
+      "date": "2026-05-16",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-06",
+      "name": "Amavasya (Adhika Jyeshtha)",
+      "date": "2026-06-15",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Darsha Amavasya 2026-06-14; this date = day drik lists as the month Amavasya (tithi at sunrise)"
+    },
+    {
+      "id": "amavasya-2026-07",
+      "name": "Amavasya (Ashadha/Jyeshtha)",
+      "date": "2026-07-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-08",
+      "name": "Amavasya (Shravana/Ashadha; total solar eclipse)",
+      "date": "2026-08-12",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-09",
+      "name": "Amavasya (Bhadrapada/Shravana)",
+      "date": "2026-09-11",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Darsha Amavasya 2026-09-10; this date = day drik lists as the month Amavasya (tithi at sunrise)"
+    },
+    {
+      "id": "amavasya-2026-10",
+      "name": "Amavasya (Ashwina/Bhadrapada; Sarva Pitru)",
+      "date": "2026-10-10",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "amavasya-2026-11",
+      "name": "Amavasya (Kartika/Ashwina)",
+      "date": "2026-11-09",
+      "source": "drikpanchang",
+      "confidence": "medium",
+      "note": "Darsha Amavasya 2026-11-08; this date = day drik lists as the month Amavasya (tithi at sunrise)"
+    },
+    {
+      "id": "amavasya-2026-12",
+      "name": "Amavasya (Margashirsha/Kartika)",
+      "date": "2026-12-08",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Darsha Amavasya same day"
+    },
+    {
+      "id": "sankranti-makara",
+      "name": "Makara Sankranti",
+      "date": "2026-01-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 15:13 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-kumbha",
+      "name": "Kumbha Sankranti",
+      "date": "2026-02-13",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 04:14 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-meena",
+      "name": "Meena Sankranti",
+      "date": "2026-03-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 01:08 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-mesha",
+      "name": "Mesha Sankranti",
+      "date": "2026-04-14",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 09:39 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-vrishabha",
+      "name": "Vrishabha Sankranti",
+      "date": "2026-05-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 06:28 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-mithuna",
+      "name": "Mithuna Sankranti",
+      "date": "2026-06-15",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 12:59 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-karka",
+      "name": "Karka Sankranti",
+      "date": "2026-07-16",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 23:45 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-simha",
+      "name": "Simha Sankranti",
+      "date": "2026-08-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 08:04 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-kanya",
+      "name": "Kanya Sankranti",
+      "date": "2026-09-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 07:58 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-tula",
+      "name": "Tula Sankranti",
+      "date": "2026-10-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 19:57 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-vrishchika",
+      "name": "Vrishchika Sankranti",
+      "date": "2026-11-16",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 19:48 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "sankranti-dhanu",
+      "name": "Dhanu Sankranti",
+      "date": "2026-12-16",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Sankranti moment 10:29 IST (drik, sidereal); date = calendar day of the moment"
+    },
+    {
+      "id": "solar-eclipse-2026-02-17",
+      "name": "Annular solar eclipse",
+      "date": "2026-02-17",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Not visible in Pune (drik)"
+    },
+    {
+      "id": "lunar-eclipse-2026-03-03",
+      "name": "Total lunar eclipse",
+      "date": "2026-03-03",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Visible in Pune only briefly at moonrise (partial phase, ~1.5 min local per drik)"
+    },
+    {
+      "id": "solar-eclipse-2026-08-12",
+      "name": "Total solar eclipse",
+      "date": "2026-08-12",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Not visible in Pune (drik)"
+    },
+    {
+      "id": "lunar-eclipse-2026-08-28",
+      "name": "Partial lunar eclipse",
+      "date": "2026-08-28",
+      "source": "drikpanchang",
+      "confidence": "high",
+      "note": "Not visible in Pune (drik)"
+    }
+  ]
+}
